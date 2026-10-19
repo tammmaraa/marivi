@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariví - Explorar</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">Mariví</a>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="explorar.html" class="nav-link active" aria-current="page">Explorar</a>
+                <a href="index.html#novedades" class="nav-link">Novedades</a>
+                <a href="index.html#servicios" class="nav-link">Mis Servicios</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+                <a href="perfil.html" class="nav-link">Mi Cuenta</a>
+            </nav>
+            <div class="header-actions">
+                <a href="iniciar_sesion.html" class="btn btn-outline">Iniciar Sesión</a>
+                <a href="registro.html" class="btn btn-primary">Registrarse</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title">Encuentra el Servicio que Necesitas</h1>
+                <p class="section-subtitle">
+                    Busca entre los servicios freelance disponibles en el municipio y encuentra al profesional ideal para tu proyecto.
+                </p>
+
+                <div class="search-bar">
+                    <input type="text" class="search-input" placeholder="Busca un servicio, categoría o freelancer..." aria-label="Buscar">
+                    <button type="button" class="btn btn-primary"><i class="fas fa-search"></i> Buscar</button>
+                </div>
+
+                <div class="explore-grid">
+                    <article class="card explore-card">
+                        <div class="card-media"><i class="fas fa-layer-group"></i></div>
+                        <div class="card-body">
+                            <h3>Categorías de Servicios</h3>
+                            <p>Explora diseño, fotografía, marketing, desarrollo web, redacción y mucho más.</p>
+                            <a href="#" class="explore-link">VER TODAS <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="card explore-card">
+                        <div class="card-media"><i class="fas fa-users"></i></div>
+                        <div class="card-body">
+                            <h3>Freelancers Destacados</h3>
+                            <p>Conoce a profesionales independientes de Cartago y contacta al que mejor se ajuste a tu proyecto.</p>
+                            <a href="perfil.html" class="explore-link">VER FREELANCERS <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="card explore-card">
+                        <div class="card-media"><i class="fas fa-folder-open"></i></div>
+                        <div class="card-body">
+                            <h3>Proyectos Recientes</h3>
+                            <p>Descubre trabajos realizados por freelancers del municipio y encuentra inspiración para el tuyo.</p>
+                            <a href="#" class="explore-link">VER PROYECTOS <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="index.html" class="brand">Mariví</a>
+                <p>Servicios freelance para el municipio de Cartago.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/573000000000" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <ul class="footer-contact">
+                <li><i class="fas fa-envelope"></i><a href="mailto:contacto@marivi.co">contacto@marivi.co</a></li>
+                <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/573000000000" target="_blank" rel="noopener">+57 300 000 0000</a></li>
+                <li><i class="fas fa-map-marker-alt"></i><span>Cartago, Valle del Cauca</span></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <span>&copy; 2026 Mariví. Todos los derechos reservados.</span>
+                <nav>
+                    <a href="#">Términos</a>
+                    <a href="#">Privacidad</a>
+                    <a href="#" class="js-open-cookies">Cookies</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
